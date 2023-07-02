@@ -8,20 +8,6 @@
         <TwitSearch />
         <TrendsForYou />
         <WhoToFollow />
-        <div class="flex flex-col text-lowsWhite text-[12px] w-full px-4 mt-1">
-            <div class="flex gap-2">
-                <span class="hover:underline cursor-pointer">Terms of Service</span>
-                <span class="hover:underline cursor-pointer">Privacy Policy</span>
-                <span class="hover:underline cursor-pointer">Cookie Policy</span>
-            </div>
-            <div class="flex gap-2">
-                <span class="hover:underline cursor-pointer">Imprint</span>
-                <span class="hover:underline cursor-pointer">Accessibility</span>
-                <span class="hover:underline cursor-pointer">Ads info</span>
-                <span class="hover:underline cursor-pointer">More...</span>
-            </div>
-            <span>© 2023 Twitter, Inc.</span>
-        </div>
     </aside>
 </template>
 

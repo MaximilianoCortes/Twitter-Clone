@@ -2,7 +2,7 @@
     <div class="relative flex flex-col items-center justify-start 2xl:w-7/12 xl:w-7/12 lg:w-7/12 sm:w-7/12 min-h-[200vh] 2xl:ml-[280px] xl:ml-[280px] lg:ml-[80px] sm:ml-[80px]">
         <div class="sticky top-0 w-full h-[96px] bg-transparent text-normalWhite mr-auto border-b-[0.5px] border-useGray backdrop-blur-sm">
             <div class="h-[48px] w-full flex items-center justify-between py-3 px-4 ">
-                <nuxt-link to="/"><h3 class="font-bold">Notifications</h3></nuxt-link>
+                <nuxt-link to="/"><h3 class="font-bold">Notificaciones</h3></nuxt-link>
                 <span class="fill-normalWhite p-2 hover:bg-lowWhite rounded-full cursor-pointer">
                     <svg viewBox="0 0 24 24" class="w-[16px]" aria-hidden="true">
                     <g>
@@ -22,20 +22,6 @@
         <TwitSearch />
         <TrendsForYou />
         <WhoToFollow />
-        <div class="flex flex-col text-lowsWhite text-[12px] w-full px-4 mt-1">
-            <div class="flex gap-2">
-                <span class="hover:underline cursor-pointer">Terms of Service</span>
-                <span class="hover:underline cursor-pointer">Privacy Policy</span>
-                <span class="hover:underline cursor-pointer">Cookie Policy</span>
-            </div>
-            <div class="flex gap-2">
-                <span class="hover:underline cursor-pointer">Imprint</span>
-                <span class="hover:underline cursor-pointer">Accessibility</span>
-                <span class="hover:underline cursor-pointer">Ads info</span>
-                <span class="hover:underline cursor-pointer">More...</span>
-            </div>
-            <span>© 2023 Twitter, Inc.</span>
-        </div>
     </aside>
 </template>
 

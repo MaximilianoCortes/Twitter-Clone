@@ -1,18 +1,18 @@
 <template>
     <div class="flex w-full items-start gap-2 px-4 py-1 border-b-[0.5px] border-lowWhite h-auto">
         <nuxt-link to="/" class="cursor-pointer py-1 h-auto">
-            <img src="/images/profile.jpeg" class="w-[43px] rounded-full hover:brightness-90" alt="">
+            <img src="/images/gc.jpg" class="w-[43px] rounded-full hover:brightness-90" alt="">
         </nuxt-link>
         <div class="w-full flex flex-col group py-1 items-start ">
             <button class="hover:bg-hoverGreen relative group  group-focus-within:flex cursor-pointer  transition duration-200 hidden gap-2 items-center text-useGreen text-[12px]  ml-2 py-[1px] px-[12px] rounded-l-full rounded-r-full border-[1px] border-lowsWhite ">
-                Everyone
+                Todos
                 <svg viewBox="0 0 24 24" class="w-[13px] fill-useGreen" aria-hidden="true">
                     <g>
                         <path d="M3.543 8.96l1.414-1.42L12 14.59l7.043-7.05 1.414 1.42L12 17.41 3.543 8.96z"></path>
                     </g>
                 </svg>
                 <span class="flex flex-col text-normalWhite gap-2 py-1 z-100 top-7 -right-12 rounded-xl absolute bg-black shadow-[rgba(222,222,222,0.6)] shadow-[0_0_7px_0] w-64 opacity-0 group-focus:opacity-100 pointer-events-none group-focus:pointer-events-auto transition duration-200">
-                    <span class="text-lg text-start px-2 py-2 font-bold">Choose audience</span>
+                    <span class="text-lg text-start px-2 py-2 font-bold">Elige la audiencia</span>
                     <a class="flex items-center text-[14px] gap-2 px-4 py-2 cursor-pointer hover:bg-lowWhite">
                         <span class="bg-useGreen rounded-full p-2">
                             <svg viewBox="0 0 24 24" class="fill-normalWhite w-[18px]" aria-hidden="true">
@@ -20,7 +20,7 @@
                                         d="M4.65 8.24c-.57 1.13-.9 2.41-.9 3.76 0 4.56 3.69 8.25 8.25 8.25 2.87 0 5.4-1.47 6.88-3.69l-2.99-1.5.56-3.32-3.01-4.21 4.16-1.59c-1.27-1.17-2.91-1.95-4.72-2.14l-.5 2.38-2.08 1.04-.53 1.41 4.82 1.93-2.16 2.87-1.23 5.54-3.7-1.85V13.1l-.53-2.68.26-.71-2.58-1.47zm1.13-1.66l2.16 1.23.77-2.03 1.91-.96.21-.99c-2.01.29-3.78 1.3-5.05 2.75zm3.26 4l.46 2.32v2.98l.3.15.77-3.46.85-1.13-2.35-.94-.03.08zm9.92-3.02l-2.39.91 1.99 2.79-.45 2.68 1.67.83c.3-.87.47-1.8.47-2.77 0-1.63-.47-3.16-1.29-4.44zM1.75 12C1.75 6.34 6.34 1.75 12 1.75S22.25 6.34 22.25 12 17.66 22.25 12 22.25 1.75 17.66 1.75 12z"></path></g>
                             </svg>
                         </span>
-                        Everyone
+                        Todos
                     </a>
                     <a class="flex flex-col text-[14px] items-start py-2 px-4 cursor-pointer hover:bg-lowWhite">
                         <div class="flex items-center gap-2">
@@ -31,7 +31,7 @@
                                 </svg>
                             </span>
                            <div class="flex flex-col items-center">
-                                Twitter Circle
+                                Publicacion premium
                             <div class="text-[13px] ml-2"><span class="text-lowsWhite"><b class="text-normalWhite">0</b> people</span> <span
                                     class="cursor-pointer rounded-full px-2 py-1 hover:bg-lowWhite underline">Edit</span></div>
                            </div>
@@ -40,7 +40,7 @@
                     </a>
                 </span>
             </button>
-            <input type="text" v-model="input" placeholder="What's happening?"
+            <input type="text" v-model="input" placeholder="Que quieres informar?"
                    class="text-normalWhite bg-transparent text-lg outline-none resize-none overflow-hidden px-2 mt-2 w-full">
             <div class="border-b-[1px] border-lowsWhite w-full mt-2 py-3 hidden group-focus-within:block">
                 <button class="flex gap-1 relative group hover:bg-hoverGreen transition duration-200 text-useGreen text-[13px] items-center px-2 rounded-l-full rounded-r-full">
@@ -49,11 +49,11 @@
                             <path d="M12 1.75C6.34 1.75 1.75 6.34 1.75 12S6.34 22.25 12 22.25 22.25 17.66 22.25 12 17.66 1.75 12 1.75zm-.25 10.48L10.5 17.5l-2-1.5v-3.5L7.5 9 5.03 7.59c1.42-2.24 3.89-3.75 6.72-3.84L11 6l-2 .5L8.5 9l5 1.5-1.75 1.73zM17 14v-3l-1.5-3 2.88-1.23c1.17 1.42 1.87 3.24 1.87 5.23 0 1.3-.3 2.52-.83 3.61L17 14z"></path>
                         </g>
                     </svg>
-                    Everyone can reply
+                    Todos pueden responder
                     <span class="flex flex-col text-normalWhite gap-2 py-1 z-100 top-7 -right-12 rounded-xl absolute bg-black shadow-[rgba(222,222,222,0.6)] shadow-[0_0_7px_0] w-72 opacity-0 group-focus:opacity-100 pointer-events-none group-focus:pointer-events-auto transition duration-200">
                         <span class="text-sm font-light text-start text-lowsWhite px-2 py-2 ">
-                            <b class="text-normalWhite font-bold">Who can reply?</b><br>
-                            Choose who can reply to this Tweet. Anyone mentioned can always reply
+                            <b class="text-normalWhite font-bold">Quien puede responder?</b><br>
+                            Elige quien puede responder
                         </span>
                             <a class="flex items-center text-[14px] gap-2 px-4 py-2 cursor-pointer hover:bg-lowWhite">
                                 <span class="bg-useGreen rounded-full p-2">
@@ -62,7 +62,7 @@
                                                 d="M4.65 8.24c-.57 1.13-.9 2.41-.9 3.76 0 4.56 3.69 8.25 8.25 8.25 2.87 0 5.4-1.47 6.88-3.69l-2.99-1.5.56-3.32-3.01-4.21 4.16-1.59c-1.27-1.17-2.91-1.95-4.72-2.14l-.5 2.38-2.08 1.04-.53 1.41 4.82 1.93-2.16 2.87-1.23 5.54-3.7-1.85V13.1l-.53-2.68.26-.71-2.58-1.47zm1.13-1.66l2.16 1.23.77-2.03 1.91-.96.21-.99c-2.01.29-3.78 1.3-5.05 2.75zm3.26 4l.46 2.32v2.98l.3.15.77-3.46.85-1.13-2.35-.94-.03.08zm9.92-3.02l-2.39.91 1.99 2.79-.45 2.68 1.67.83c.3-.87.47-1.8.47-2.77 0-1.63-.47-3.16-1.29-4.44zM1.75 12C1.75 6.34 6.34 1.75 12 1.75S22.25 6.34 22.25 12 17.66 22.25 12 22.25 1.75 17.66 1.75 12z"></path></g>
                                     </svg>
                                 </span>
-                                Everyone
+                                Todos
                             </a>
                             <a class="flex items-center text-[14px] gap-2 px-4 py-2 cursor-pointer hover:bg-lowWhite">
                                 <span class="bg-useGreen rounded-full p-2">
@@ -71,7 +71,7 @@
                                                 d="M4.65 8.24c-.57 1.13-.9 2.41-.9 3.76 0 4.56 3.69 8.25 8.25 8.25 2.87 0 5.4-1.47 6.88-3.69l-2.99-1.5.56-3.32-3.01-4.21 4.16-1.59c-1.27-1.17-2.91-1.95-4.72-2.14l-.5 2.38-2.08 1.04-.53 1.41 4.82 1.93-2.16 2.87-1.23 5.54-3.7-1.85V13.1l-.53-2.68.26-.71-2.58-1.47zm1.13-1.66l2.16 1.23.77-2.03 1.91-.96.21-.99c-2.01.29-3.78 1.3-5.05 2.75zm3.26 4l.46 2.32v2.98l.3.15.77-3.46.85-1.13-2.35-.94-.03.08zm9.92-3.02l-2.39.91 1.99 2.79-.45 2.68 1.67.83c.3-.87.47-1.8.47-2.77 0-1.63-.47-3.16-1.29-4.44zM1.75 12C1.75 6.34 6.34 1.75 12 1.75S22.25 6.34 22.25 12 17.66 22.25 12 22.25 1.75 17.66 1.75 12z"></path></g>
                                     </svg>
                                 </span>
-                                People you follow
+                                Usuarios Premium
                             </a>
                             <a class="flex items-center text-[14px] gap-2 px-4 py-2 cursor-pointer hover:bg-lowWhite">
                             <span class="bg-useGreen rounded-full p-2">
@@ -80,7 +80,6 @@
                                             d="M4.65 8.24c-.57 1.13-.9 2.41-.9 3.76 0 4.56 3.69 8.25 8.25 8.25 2.87 0 5.4-1.47 6.88-3.69l-2.99-1.5.56-3.32-3.01-4.21 4.16-1.59c-1.27-1.17-2.91-1.95-4.72-2.14l-.5 2.38-2.08 1.04-.53 1.41 4.82 1.93-2.16 2.87-1.23 5.54-3.7-1.85V13.1l-.53-2.68.26-.71-2.58-1.47zm1.13-1.66l2.16 1.23.77-2.03 1.91-.96.21-.99c-2.01.29-3.78 1.3-5.05 2.75zm3.26 4l.46 2.32v2.98l.3.15.77-3.46.85-1.13-2.35-.94-.03.08zm9.92-3.02l-2.39.91 1.99 2.79-.45 2.68 1.67.83c.3-.87.47-1.8.47-2.77 0-1.63-.47-3.16-1.29-4.44zM1.75 12C1.75 6.34 6.34 1.75 12 1.75S22.25 6.34 22.25 12 17.66 22.25 12 22.25 1.75 17.66 1.75 12z"></path></g>
                                 </svg>
                             </span>
-                            Only people you mention
                             </a>
                     </span>
                 </button>
@@ -131,7 +130,7 @@
                     </li>
                 </ul>
                 <div class="mt-2">
-                    <button v-bind:class="isFill">Tweet</button>
+                    <button v-bind:class="isFill">Informar</button>
                 </div>
             </div>
         </div>

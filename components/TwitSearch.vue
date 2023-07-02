@@ -9,7 +9,7 @@
                     </g>
                     </svg>
                </span>
-                <input type="text" class="outline-none bg-transparent px-2 text-lowsWhite text-sm" v-model="searchInput" placeholder="Search Twitter">
+                <input type="text" class="outline-none bg-transparent px-2 text-lowsWhite text-sm" v-model="searchInput" placeholder="Busca por informacion">
                <span @click="clearSearchInput" class="flex items-center justify-center bg-useGreen rounded-full box-border cursor-pointer	w-5 h-5 opacity-0 group-focus-within:opacity-100">
                     <svg viewBox="0 0 15 15" class="fill-black w-[10px] " aria-hidden="true">
                     <g>

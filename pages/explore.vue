@@ -37,14 +37,14 @@
 
         <div class="w-full border-b-[1px] border-lowsWhite">
             <div class="bg-transparent h-auto overflow-hidden">
-                <h1 class="text-normalWhite text-lg font-bold px-3 py-3">Trends for you</h1>
+                <h1 class="text-normalWhite text-lg font-bold px-3 py-3">Informacion relevante</h1>
                 <ul class="flex flex-col text-normalWhite">
                     <li v-for="trend in trendsForYou" :key="trend.id"
                         class="flex px-2 py-1 cursor-pointer hover:bg-lowWhite justify-between items-start">
                         <div class="flex flex-col px-2">
                             <span class="text-[12px] text-lowsWhite font-light">{{ trend.trending }}</span>
                             <span class="text-sm font-bold">{{ trend.title }}</span>
-                            <span class="text-[12px] text-lowsWhite font-light">{{ trend.twitCount }} tweet</span>
+                            <span class="text-[12px] text-lowsWhite font-light">{{ trend.twitCount }} Informes</span>
                         </div>
                         <div tabindex="10"
                              class="cursor-pointer relative group rounded-full p-2 fill-lowsWhite  hover:fill-tickBlue  hover:bg-hoverBlue z-100 transition duration-200">
@@ -58,28 +58,28 @@
                                 <span class="py-3 px-2 flex items-center gap-2 hover:bg-lowWhite cursor-pointer">
                                   <svg viewBox="0 0 24 24" class="fill-normalWhite w-[18px] " aria-hidden="true"><g><path
                                           d="M9.5 7c.828 0 1.5 1.119 1.5 2.5S10.328 12 9.5 12 8 10.881 8 9.5 8.672 7 9.5 7zm5 0c.828 0 1.5 1.119 1.5 2.5s-.672 2.5-1.5 2.5S13 10.881 13 9.5 13.672 7 14.5 7zM12 22.25C6.348 22.25 1.75 17.652 1.75 12S6.348 1.75 12 1.75 22.25 6.348 22.25 12 17.652 22.25 12 22.25zm0-18.5c-4.549 0-8.25 3.701-8.25 8.25s3.701 8.25 8.25 8.25 8.25-3.701 8.25-8.25S16.549 3.75 12 3.75zM8.947 17.322l-1.896-.638C7.101 16.534 8.322 13 12 13s4.898 3.533 4.949 3.684l-1.897.633c-.031-.09-.828-2.316-3.051-2.316s-3.021 2.227-3.053 2.322z"></path></g></svg>
-                                  Not interested in this
+                                  No estoy interesado
                                 </span>
                                     <span class="py-3 px-2 flex items-center gap-2 hover:bg-lowWhite cursor-pointer">
                                     <svg viewBox="0 0 24 24" class="fill-normalWhite w-[18px]" aria-hidden="true"><g><path
                                             d="M9.5 7c.828 0 1.5 1.119 1.5 2.5S10.328 12 9.5 12 8 10.881 8 9.5 8.672 7 9.5 7zm5 0c.828 0 1.5 1.119 1.5 2.5s-.672 2.5-1.5 2.5S13 10.881 13 9.5 13.672 7 14.5 7zM12 22.25C6.348 22.25 1.75 17.652 1.75 12S6.348 1.75 12 1.75 22.25 6.348 22.25 12 17.652 22.25 12 22.25zm0-18.5c-4.549 0-8.25 3.701-8.25 8.25s3.701 8.25 8.25 8.25 8.25-3.701 8.25-8.25S16.549 3.75 12 3.75zM8.947 17.322l-1.896-.638C7.101 16.534 8.322 13 12 13s4.898 3.533 4.949 3.684l-1.897.633c-.031-.09-.828-2.316-3.051-2.316s-3.021 2.227-3.053 2.322z"></path></g></svg>
-                                    This trend is harmful or spammy
+                                    Reportar
                                 </span>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="text-sm text-useGreen p-2 py-4 hover:bg-lowWhite cursor-pointer">Show More</li>
+                    <li class="text-sm text-useGreen p-2 py-4 hover:bg-lowWhite cursor-pointer">Mostrar mas</li>
                 </ul>
             </div>
         </div>
         <div class="w-full text-normalWhite ">
-            <h1 class="text-[18px] px-2 font-bold py-2">What's happening</h1>
+            <h1 class="text-[18px] px-2 font-bold py-2">Que está sucediendo</h1>
             <ul>
                 <li class="cursor-pointer hover:bg-lowWhite px-2 py-2">
                     <div class="flex items-center justify-between">
                         <span class="text-[12px] font-bold">NBA</span>
-                        <span class="text-[12px] text-lowsWhite">Today * 2:00 AM</span>
+                        <span class="text-[12px] text-lowsWhite">Hoy * 2:00 AM</span>
                     </div>
                     <div class="w-full overflow-hidden rounded-lg py-1">
                         <span class="flex items-center gap-3 text-sm justify-start font-bold bg-[#E14434] py-2">
@@ -95,7 +95,7 @@
                 <li class="cursor-pointer hover:bg-lowWhite px-2 py-2">
                     <div class="flex items-center justify-between">
                         <span class="text-[12px] font-bold">NBA</span>
-                        <span class="text-[12px] text-lowsWhite">Today * 2:00 AM</span>
+                        <span class="text-[12px] text-lowsWhite">Hoy * 2:00 AM</span>
                     </div>
                     <div class="w-full overflow-hidden rounded-lg py-1">
                         <span class="flex items-center gap-3 text-sm justify-start font-bold bg-[#006BB6] py-2">
@@ -108,7 +108,7 @@
                         </span>
                     </div>
                 </li>
-                <li class="text-sm text-useGreen p-2 py-4 hover:bg-lowWhite cursor-pointer">Show More</li>
+                <li class="text-sm text-useGreen p-2 py-4 hover:bg-lowWhite cursor-pointer">Mostrar mas</li>
             </ul>
         </div>
     </div>
@@ -121,11 +121,9 @@
 import {ref} from "#imports";
 
 const trendsForYou = ref([
-    {id: 1, trending: 'Sports Trending', title: 'YÖNETİM İSTİFA', twitCount: '3.558'},
-    {id: 2, trending: 'Trending in Turkey', title: 'ERDOĞAN İSTİFA', twitCount: '324.234.234'},
-    {id: 3, trending: 'Sports Trending', title: 'Yaşasın 23 Nisan', twitCount: '3.558'},
-    {id: 4, trending: 'Trending in Turkey', title: 'Bruh', twitCount: '3.558'},
-    {id: 5, trending: 'Sports Trending', title: 'Lamine Diack', twitCount: '3.558'},
+    {id: 1, trending: 'UFROBOOK', title: 'UFROBOOK', twitCount: '3.558'},
+    {id: 2, trending: 'UfroMedios', title: 'Mocion de paro', twitCount: '324.234.234'},
+    {id: 3, trending: 'Intercarreras', title: 'Victoria aplastante de...', twitCount: '3.558'},
 ])
 
 const searchInput = ref('');

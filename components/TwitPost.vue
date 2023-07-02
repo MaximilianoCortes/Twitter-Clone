@@ -1,12 +1,12 @@
 <template>
     <div class="flex w-full h-auto cursor-pointer hover:bg-lowWhite ">
         <div class="p-3">
-            <img src="/images/profil1.jpg" class="w-[45px] rounded-full" alt="post profil image">
+            <img src="/images/ub.jpg" class="w-[45px] rounded-full" alt="post profil image">
         </div>
         <div class="w-full">
             <div class="text-sm px-2 flex  items-center justify-start gap-2 text-normalWhite mt-2">
-                <h3 class="font-bold hover:underline">Nuxt </h3>
-                <span class="text-lowsWhite font-light flex-grow">@nuxt_js · Mar 14</span>
+                <h3 class="font-bold hover:underline">Ufrobook </h3>
+                <span class="text-lowsWhite font-light flex-grow">@ufrobook · 04 jul</span>
                 <span>
                 <svg viewBox="0 0 24 24"
                      class="w-[30px] cursor-pointer rounded-full p-2 fill-lowsWhite  hover:fill-tickBlue  hover:bg-hoverBlue z-100 transition duration-200"
@@ -18,20 +18,19 @@
             </span>
             </div>
             <div class="text-sm text-normalWhite">
-                Nuxt 3.4 is out ✨ <br><br>
+                We are launching our new version soon ✨ <br><br>
 
-                🪄 View Transitions API Support <br>
-                ✨ Payload Enhancements <br>
-                🎁 Object-syntax Nuxt plugins <br>
-                🛠️ Easier Devtools Configuration <br>
-                📚 Layers Improvements <br><br>
+                Post things<br>
+                Make friends <br>
+                Talk to them <br>
+                Completely free <br><br>
                 
-                Thank you to all the contributors and for your support 💚<br><br>
+                Onyle for universidad de la frontera students<br><br>
                 
-                <a href="https://nuxt.com/blog/v3-4" style="color:#1d9bf0;">nuxt.com/blog/v3-4</a>
+                <a href="http://34.16.136.74:8081" style="color:#1d9bf0;">Ufrobook</a>
             </div>
             <div class="pr-3 mt-2">
-                <img src="/images/post1.jpg" class="object-cover border-[1px] border-lowsWhite rounded-lg"
+                <img src="/images/ub.jpg" class="object-cover border-[1px] border-lowsWhite rounded-lg"
                      alt="post image">
             </div>
             <ul class="flex items-center w-full justify-start gap-10 py-3">
