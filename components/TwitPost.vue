@@ -25,9 +25,9 @@
                 Talk to them <br>
                 Completely free <br><br>
                 
-                Onyle for universidad de la frontera students<br><br>
+                Only for universidad de la frontera students<br><br>
                 
-                <a href="http://34.16.136.74:8081" style="color:#1d9bf0;">Ufrobook</a>
+                <a href="http://34.118.243.183:8081/" style="color:#1d9bf0;">Ufrobook</a>
             </div>
             <div class="pr-3 mt-2">
                 <img src="/images/ub.jpg" class="object-cover border-[1px] border-lowsWhite rounded-lg"

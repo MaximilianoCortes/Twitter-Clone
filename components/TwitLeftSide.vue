@@ -72,8 +72,8 @@
                      alt="profile image">
                 </div>
                 <div class="flex flex-col flex-grow items-center 2xl:block xl:block lg:hidden sm:hidden">
-                    <span class="text-normalWhite text-sm font-semibold block">Persona promedio</span>
-                    <span class="text-lowsWhite font-light text-sm block">@personapromedio</span>
+                    <span class="text-normalWhite text-sm font-semibold block">Informante Valido</span>
+                    <span class="text-lowsWhite font-light text-sm block">@informantevalido</span>
                 </div>
                 <div class="mr-1 2xl:block xl:block lg:hidden sm:hidden">
                     <svg viewBox="0 0 24 24" class="w-[15px] fill-normalWhite" aria-hidden="true">
